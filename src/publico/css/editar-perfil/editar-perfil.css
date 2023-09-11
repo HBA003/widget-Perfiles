@@ -1,0 +1,48 @@
+.open-modal-editar-perfil{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+    display: block;
+    height: 100%;
+    
+  }
+  
+  .close-modal-editar-perfil{
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+    position: absolute;
+    cursor: pointer;
+    color: #888;
+    display: none;
+  }
+  
+  .div-buttons{
+    text-align: end;
+  }
+  
+  .button-save-changes-edit{
+    background: #A41D36;
+    width: 200px;
+    height: 50px;
+    padding: 10px 32px;
+    gap: 10px;
+    color: white;
+    margin-left: 28px;
+    border: 2px solid #A41D36;
+  }
+  
+  .button-cancel-changes{
+    background: white;
+    width: 150px;
+    height: 50px;
+    padding: 10px 32px;
+    gap: 10px;
+    color: white;
+    border: 2px solid #A41D36;
+    color: #A41D36;
+  }

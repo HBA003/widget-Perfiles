@@ -1,0 +1,386 @@
+.div-contenedor{
+    margin-top: 50px;
+    
+}
+  .div-cont-perfil{
+    font-weight:10px;
+    font-size: 18px;
+  }
+  
+  .cont-perfil{
+    color: rgba(164,1,51);
+    margin-left: 140px;
+    margin-top: -43px;
+  }
+  
+  .div-let-perfil{
+    margin-top: 50px;
+    font-size: 23px;
+  }
+  
+  .btnAgregar {
+      background:rgba(164,1,51);
+      color:white;
+      left: 75%;
+      width: 14%;
+      border: none;
+      position: relative;
+      top: 7px;
+      padding: 7px;
+      font-size: 18px;
+      border-radius: 3px;
+      
+  
+    }
+  
+  /* Estilos para el modal */
+  .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .contenido-modal{
+      background-color: white;
+      margin: 15% auto;
+      padding: 50px;
+      border: 1px solid #888;
+      border-radius: 10px;
+      width: 80%;
+      position: relative;
+      text-align: left;
+    }
+  
+    .closeModal{
+      right: 20px;
+      top: 10px;
+      font-size: 30px;
+      position: absolute;
+      cursor: pointer;
+      color: #888;
+    }
+    
+    .input-ancho.inputBorderRed{
+      border-bottom: 3px solid #e61414 !important;
+    }
+  
+    .input-defecto{
+      display: none;
+    }
+  
+  
+    .fuera-rango{
+      color: rgb(78, 76, 76);
+      font-size: 13px;
+      display: block;
+    }
+  
+    .close-modal{
+      display: none;
+      
+    }
+  
+    .open-modal{
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background: rgba(0, 0, 0, 0.4);
+      display: block;
+      
+    }
+  
+    .modal-form{
+      width: 100%;
+      align-items: center;
+      position: relative;
+      float: right;
+      background: wheat;
+      height: 100px;
+    }
+    @media screen and (max-width: 800px) {
+       .ejemplo{
+        background: red;
+        width: 50%;
+        height: 100px;
+       }
+    }
+  
+    .input-ancho{
+      height: 50px;
+      margin-top: 10px;
+      border-bottom: 3px solid #888 !important;
+      position: relative;
+      z-index: 1;
+    }
+  
+    .contenido-modal-child{
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .div-buttons-export{
+    margin-top: 30px;
+    text-align: end;
+  }
+  
+  .btn-save-changes{
+    background: #A41D36;
+    width: 188px;
+    height: 50px;
+    padding: 10px 32px;
+    gap: 10px;
+    color: white;
+    margin-left: 28px;
+    border: 2px solid #A41D36;
+  }
+  
+  .button-cancel-changes{
+    background: white;
+    width: 150px;
+    height: 50px;
+    padding: 10px 32px;
+    gap: 10px;
+    color: white;
+    border: 2px solid #A41D36;
+    color: #A41D36;
+  }
+  
+    .ajuste-flecha{
+      position: relative;
+    }
+    .flecha-down{
+    position: absolute;
+    right: 9px;
+    z-index: 2;
+    top: 12px;
+    font-size: 13px;
+    cursor: pointer;
+    pointer-events: none;
+  
+    }
+
+
+    .label-select{
+    color: #000; 
+    margin-bottom: -5px; 
+    font-size: 12px; 
+    position: absolute; 
+    top: 4px; 
+    left: 8px;
+    }
+
+    .select-option{
+      position: absolute;
+
+    }
+
+
+    .text-mesaje{
+      color: red;
+      position: absolute;
+      bottom: 125px;
+      top: 205px;
+      left: 51px;
+    }
+
+    .div-buscar{
+      margin-top: 90px;
+      width: 250px;
+      position: relative;
+      
+    }
+    
+    .input {
+      box-sizing:content-box;
+      color: #191919;
+      padding: 10px 15px 10px 35px;
+      width: 100%;
+      border-radius: 5px;
+      border: 2px solid rgb(198, 192, 192);
+    }
+    .input:focus{
+      outline: none;
+    }
+    .icono-buscar{
+      color: #191919;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .mostrar-tabla{
+      margin-left: 700px;
+      margin-top: -35px;
+      position: absolute;
+    }
+
+    
+    .select-opciones{
+      margin-left: 3px;
+      font-weight: bold;
+      border: none;
+      outline: none;
+      /*appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none; */
+      width: 110px; /* Ajusta el ancho deseado */
+      height: 40px; 
+    }
+
+    .img-desplegable{
+      margin-top: -23.5px;
+      left: 157.5px;
+      position: relative;
+      display: block;
+    }
+
+    .div-boton{
+      margin-left: 930px;
+      margin-top: -30px;
+      position: relative;
+    }
+    .btn-exportar{
+      position: relative;
+      width: 10rem;
+      border: none;
+      background: white;
+    }
+
+    .icono-export{
+      top: 6px;
+      right: 129px;
+      position: absolute;
+    }
+
+    .icono-desplegable{
+      top: 10px;
+      left: 130px;
+      position: absolute;
+    }
+
+    .linea-perfil{
+      border: none;
+      border-top: 1px solid #d1cccc;
+      margin: 140px 1px; 
+      margin-bottom: 35px;
+    }
+
+    .linea-perfil-tipo{
+    border: none;
+    border-top: 1px solid #d1cccc;
+    margin: 195px 1px; 
+    margin-bottom: 35px;
+    }
+
+    .linea-perfil-solicitudes{
+      border: none;
+      border-top: 1px solid #d1cccc;
+      margin: 30px 1px; 
+      margin-bottom: 35px;
+    }
+    
+    .btn-tipo-acceso{
+      border: none;
+      background: transparent;
+    }
+    
+
+    .select-custom {
+      display: inline-block;
+      position: relative;
+      font-size: 16px;
+      color: #333;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    
+    /* Estilos para la flecha */
+    .select-custom::after {
+      content: '\f107'; /* Código Unicode de la flecha hacia abajo */
+      font-family: 'FontAwesome'; /* Utiliza una fuente con iconos */
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+    }
+    
+    /* Estilos para el menú desplegable */
+    .select-custom select {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+      border-radius: 0 0 4px 4px;
+      background-color: #fff;
+      display: none;
+    }
+    
+    /* Muestra el menú desplegable cuando el select está enfocado */
+    .select-custom:focus-within select {
+      display: block;
+    }
+
+    /*OPTION PERSONALIZADO*/
+    .select-style{
+      border: 0.2vh solid #88888873;
+      width: 100%;
+      height: 50px;
+      background: white;
+      top: 10px;
+      border-bottom: 0.4vh solid #0F89D3;
+      border-radius: 5px; 
+      position: relative;
+    }
+
+    .option-style{
+      width: 100%;
+      position: absolute;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 25%);;
+      top: 50px;
+      background: white;
+    }
+
+    .option-list{
+      list-style: none; 
+      padding: 0;
+      margin: 10px 0;
+      /*margin: 20px 0; 
+      display: flex;*/
+      flex-direction: column;
+    }
+
+    .option-list li{
+      margin-left: 15px;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    .linea-option{
+      border-bottom: 0.2vh solid #8888887d;
+    }
+
+    .value-option{
+      top: 20px;
+    position: absolute;
+    left: 8px;
+} 
+    

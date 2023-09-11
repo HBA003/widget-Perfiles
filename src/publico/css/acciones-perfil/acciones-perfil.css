@@ -1,0 +1,67 @@
+.card-acciones{
+    border: none;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.tarjeta-body{
+    font-size: 13px;
+    margin-left: -30px;
+    height: 150px; 
+    background: white;
+}
+
+.tarjeta-body ul{
+    text-align: initial;
+}
+
+.tarjeta-body tr{
+    text-align: center;
+}
+.btn-archivo{
+    border: none;
+    outline: none;
+    background: white;
+    cursor: pointer;
+}
+
+.tarjeta-link{
+    right: 40px;
+}
+
+.tarjeta-link strong{
+  margin-left: 10px;
+}
+
+.linea-acciones{
+  border: none;
+  border-top: 1px solid #d1cccc;
+  margin: 10px -5px;
+  margin-left: 20px;
+  
+  }
+
+  .option-position{
+    width: 133px;
+    height: 44px;
+    margin: 13px;
+    text-align: left;
+    position: relative;
+  }
+
+  .ption-position-header{
+    text-align: center;
+    width: 133px;
+    height: 44px;
+    border: 0px, 0px, 1px, 0px;
+  }
+
+  .linea-gris {
+    width: 200px;
+    border: none;
+    border-top: 2px solid gray;
+    position: absolute;
+  }

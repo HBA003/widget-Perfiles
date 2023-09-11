@@ -1,0 +1,59 @@
+.contenido-modal-exportar{
+    background-color: white;
+    margin: 15% auto;
+    padding: 50px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+  }
+  
+  .open-modal-cancelar-solicitud{
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      overflow: auto;
+      background: rgba(0, 0, 0, 0.4);
+      display: block;
+      height: 100%;
+      
+    }
+    
+    .close-modal-cancelar-solicitud{
+      right: 20px;
+      top: 10px;
+      font-size: 30px;
+      position: absolute;
+      cursor: pointer;
+      color: #888;
+      display: none;
+    }
+    
+    .div-buttons{
+      margin-top: 30px;
+      text-align: end;
+    }
+    
+    .button-save-changes{
+      background: #A41D36;
+      width: 200px;
+      height: 50px;
+      padding: 10px 32px;
+      gap: 10px;
+      color: white;
+      margin-left: 28px;
+      border: 2px solid #A41D36;
+    }
+    
+    .button-cancel-changes{
+      background: white;
+      width: 150px;
+      height: 50px;
+      padding: 10px 32px;
+      gap: 10px;
+      color: white;
+      border: 2px solid #A41D36;
+      color: #A41D36;
+    }

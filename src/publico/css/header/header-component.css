@@ -1,0 +1,115 @@
+.home-header{
+  background:rgba(164,1,51);;
+	color: white;
+	height: 80px;
+	width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: relative;
+}
+.user-header{
+    color: #ffffff;
+    padding: 8px 4px 5px 10px;
+    margin-right: 65px;
+    margin-top: 0px;
+    float: right;
+    font-size: 12px;
+    position: relative;
+  }
+  
+  .img-text-invex{
+    width: 108px;
+    height: 60px;
+    margin-left: 65px;
+    margin-top: 6px;
+  }
+
+  .ultima-conexion{
+    margin-top: 10px;    
+  }
+
+  .ultima-conexion p{
+    font-style: italic;
+  }
+
+  .user{
+    font-size: 14px;
+    left: 80px;
+    top: 10px;
+    position: relative;
+  }
+
+  .nav-menu{
+    width: 100%;
+    height: 53px;
+    left: 40px; 
+    top: 10px; 
+    position: relative;
+  }
+
+  .navbar-nav P{
+    color: #000000;
+    cursor: pointer;
+  }
+
+  /*  por uno*/
+ 
+  .conf-menu{
+    height: 200px;
+    width: 105px;
+    position: absolute;
+    top: 80px;
+  }
+ 
+  .conf-menu ul {
+    list-style: none;
+    margin-left: -25px;
+    
+  }
+  .conf-menu a{
+    color: #000000;
+  }
+
+  .conf-menu a:hover{
+    color:  rgba(164,1,51);
+  }
+
+  .linea-config{
+    height: 4px;
+    background-color:  rgba(164,1,51);
+    width: 100%;
+    margin-top: 19px;
+  }
+
+  .linea {
+    height: 4px;
+    background-color: rgb(237, 230, 230);
+    width: 100%;
+  }
+
+  .user-icon{
+    margin-left: 165px;
+    margin-top: -55px;  
+  }
+
+  .nom-usuario{
+    background: #fff;
+    color: rgb(197, 16, 70);
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    padding: 10px 4px 11px 2px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -15px;
+    font-weight:900;
+    font-size: 15px;
+    
+  }
+
+  .icon-desplegable{
+    height: 12px;
+    width: 12px;
+    margin-left: 90px;
+    margin-top: -95px;
+  }
